@@ -41,6 +41,4 @@ app.UseCors();
 //Establece el uso de rutas sin especificaruna por default
 app.MapControllers();
 
-//app.MapGet("/", () => "Hello World!"); //Esta venia por default como ruta en raiz
-
 app.Run();
